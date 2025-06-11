@@ -3,7 +3,6 @@ using namespace std;
 
 int main(void){
     int n, op, cont = 0;
-    bool flag = true;
 
     cout << "Ingresa un numero para ver si es primo o no\n";
     cin >> n;
