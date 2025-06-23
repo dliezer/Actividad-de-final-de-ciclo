@@ -18,5 +18,5 @@ int main() {
       case 1:
         cout << "Ingresa los 2 numeros para hacer la suma\n";
         cin >> num1, num2;
-}
+    }
 }
