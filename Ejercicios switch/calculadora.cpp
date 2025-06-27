@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int op, num1, num2;
+    int op, num1, num2, sum, rest, mult, div, exp, mod;
     cout << "Bienvenido/a a la calculadora, por favor, ingrese una opción:\n";
     cout << "1. Suma\n";
     cout << "2. Resta\n";
@@ -18,5 +18,6 @@ int main() {
       case 1:
         cout << "Ingresa los 2 numeros para hacer la suma\n";
         cin >> num1, num2;
+        sum = num1 + num2;
     }
 }
